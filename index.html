@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Imóveis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Imóveis da Hora</h1>
+            <input type="text" id="pesquisa" placeholder="Pesquise por palavra-chave...">
+        <select id="tipo-imovel">
+            <option value="">Tipo de Imóvel</option>
+            <option value="apartamento">Apartamento</option>
+            <option value="casa">Casa</option>
+        </select>
+        <select id="quartos">
+            <option value="">Número de Quartos</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="5">5+</option>
+        </select>
+        <button onclick="filtrarImoveis()">Filtrar</button>
+    </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2>Encontre o imóvel dos seus sonhos!</h2>
+            <p>Imóveis para todos os gostos e orçamentos.</p>
+        </section>
+
+        <section class="imoveis">
+
+            <div class="imovel">
+                <img src="https://th.bing.com/th/id/OIP.HJdsYNYd6vEOsNXi4xKgjwHaE8?w=308&h=180&c=7&r=0&o=5&pid=1.7" alt="Apartamento Fictício">
+                <h4>Apartamento Moderno</h4>
+                <p>Duplex com 4 quartos, 3 banheiro, varanda com vista para o mar.</p>
+            </div>
+            
+            <div class="imovel">
+                <img src="https://blog.archtrends.com/wp-content/uploads/2023/03/decoracao-apartamento-pequeno-8.jpg" alt="Apartamento Fictício">
+                <h4>Apartamento Medio</h4>
+                <p>2 quartos, 1 banheiro, varanda com vista para a cidade.</p>
+            </div>    
+
+             <div class="imovel">
+                <img src="https://claudia.abril.com.br/wp-content/uploads/2020/02/decorac3a7c3a3o-de-apartamento-pequeno-32-m2-muito-bem-planejados-sala-2.png?crop=1&resize=1080,565" alt="Apartamento Fictício">
+                <h4>Apartamento Basico</h4>
+                <p>1 quartos, 1 banheiro, varanda com vista para a favela.</p>
+            </div>
+
+            <div class="imovel">
+                <img src="https://casaluxuosa.com.br/wp-content/uploads/2021/11/casa-luxuosa-goiania-o-que-podemos-chamar-imoveis-de-luxo.jpg" alt="Apartamento Fictício">
+                <h4>Casa luxuosa</h4>
+                <p>5 quartos, 3 banheiro, pscina, area de lazer e patio gigante.</p>
+            </div>
+
+            <div class="imovel">
+                <img src="https://system.soprojetos.com.br/files/1491/medium/PAD-COD43-FOTO-1-WEB.jpg?1659015535" alt="Apartamento Fictício">
+                <h4>Casa Média</h4>
+                <p>3 quartos, 2 banheiro, patio grande com pscina.</p>
+            </div>
+
+            <div class="imovel">
+                <img src="https://unifortpremoldados.com.br/wp-content/uploads/2017/07/Linha-B%C3%A1sica-02.jpg" alt="Apartamento Fictício">
+                <h4>Casa basica</h4>
+                <p>2 quartos, 1 banheiro, patio pequeno.</p>
+            </div>
+
+            <div class="imovel">
+                <img src="https://www.researchgate.net/publication/335548200/figure/fig2/AS:904945243004928@1592767167029/Figura-2-Barraco-da-Gege-Vila-Isabel-Sao-Carlos-2013-Foto-Mateus-Rosada.png" alt="Apartamento Fictício">
+                <h4>Barraco</h4>
+                <p>Agua de poço e patente externa.</p>
+            </div>
+
+            <div class="imovel">
+                <img src="https://www.chavesnamao.com.br/imn/0358X0250/N/imoveis/158603/25175911/sc-campo-alegre-saltinho-nao-encontrado-terreno-a-venda-66f3dbf5-1.jpg" alt="Apartamento Fictício">
+                <h4>Terreno do campo</h4>
+                <p>Animais e Plantaçoes inlusas.</p>
+            </div>
+
+            <div class="imovel">
+                <img src="https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/grq6lwb4htd1/b/tecimob-production/o/media/84626405-1d9c-4ed2-bf5c-3bc98bb0f7ad/properties/a508fcee-ba6f-4ffa-b88b-fa7d8d7d056c/images/40851a1f-a611-499a-b72f-5d7787a7b85d1689682254zWHc.jpg" alt="Apartamento Fictício">
+                <h4>Terreno da cidade</h4>
+                <p>Bem localizado, perto do centro.</p>
+            </div>
+
+            <div class="imovel">
+                <img src="https://www.axbravoimoveis.com.br/uploads/imovel/galeria/big-561815d2a44c66a3f22c650436ed6f76.jpg" alt="Apartamento Fictício">
+                <h4>Terreno de invazão</h4>
+                <p>GRATIS.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Imóveis da Hora</p>
+    </footer>
+</body>
+</html>
